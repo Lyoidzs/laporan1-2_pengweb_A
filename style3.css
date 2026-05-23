@@ -1,0 +1,114 @@
+body{
+    background-color: #f0f2f5;
+    font-family: 'Verdana';
+    margin: 0;
+    padding: 0;
+}
+
+/* Moh Naufal Demas Hartono_202432013 */
+
+/* Header */
+header{
+    background: #476EAE;
+    padding: 30px 20px 15px;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 42px;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+nav a.active{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Main */
+main{
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+/* Moh Naufal Demas Hartono_202432013 */
+
+/* Form */
+.reg-form{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    border-top: 5px solid #476EAE;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+fieldset{
+    border: none;
+}
+
+legend{
+    font-size: 1.5em;
+    color: #476EAE;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    background: #476EAE;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #355894;
+}
+/* Moh Naufal Demas Hartono_202432013 */

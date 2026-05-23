@@ -1,0 +1,86 @@
+/* hias tampilan dari stok html disini */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+    background: #f2f2f2;
+}
+
+/* Moh Naufal Demas Hartono_202432013 */
+
+/* Header */
+header{
+    background: #69a8c1;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 8px 14px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+nav a:hover{
+    background: white;
+    color: #69a8c1;
+}
+
+nav a.active{
+    background: white;
+    color: #69a8c1;
+    font-weight: bold;
+}
+
+/* Main */
+main{
+    width: 90%;
+    margin: 40px auto;
+}
+
+main h2{
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* Table */
+.styled-table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border: 2px solid #69a8c1;
+}
+
+.styled-table th{
+    background: #69a8c1;
+    color: white;
+    padding: 18px;
+    border: 1px solid #8dc0d3;
+    text-align: center;
+}
+
+.styled-table td{
+    padding: 18px 14px;
+    border: 1px solid #d9d9d9;
+}
+
+.styled-table tbody tr:hover{
+    background: #f5fbfd;
+}
